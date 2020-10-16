@@ -32,6 +32,9 @@
             <li><a href="contact.php">Contact Us</a></li>
         </ul>
     </div>
+    <div id="bannerImage">
+
+    </div>
     </div>
 </body>
 </html>
