@@ -18,7 +18,7 @@
     margin-top:10px;
 }
 #menu li{
-    list-style:none;
+    list-style: none;
     display:inline;
 }
 #menu a{
@@ -39,5 +39,6 @@
     margin-bottom: 20px;
     text-align:center;
     color:#f8f8f8;
+    background:url(images/banner3.jpeg);
     background-size:cover;
 }

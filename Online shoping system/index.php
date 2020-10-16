@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Online Shop</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
 </head>
@@ -35,8 +35,16 @@
     </div>
     <div id="bannerImage">
         <div class="container">
+            <center>
+                <div id="bannerContent">
+                    <h1>We sell .</h1>
+                    <p>Flat 40% OFF on all premium brands.</p>
+                    <a href="products.php" class="btn btn-danger">Shop Now</a>
+                </div>
+            </center>
         </div>
     </div>
+
     </div>
 </body>
 </html>
