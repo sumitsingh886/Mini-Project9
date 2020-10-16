@@ -24,6 +24,9 @@
         </table>
     </div>
     <div id="navbar">
+        <ul id="menu">
+
+        </ul>
 
     </div>
 
