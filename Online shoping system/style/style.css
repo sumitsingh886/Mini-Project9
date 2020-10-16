@@ -33,3 +33,11 @@
     color:#333;
     font-weight:bolder;
 }
+#bannerImage{
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background-size:cover;
+}

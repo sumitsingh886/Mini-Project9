@@ -33,7 +33,8 @@
         </ul>
     </div>
     <div id="bannerImage">
-
+        <div class="container">
+        </div>
     </div>
     </div>
 </body>
