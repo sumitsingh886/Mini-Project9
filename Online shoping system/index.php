@@ -25,6 +25,7 @@
     </div>
     <div id="navbar">
         <ul id="menu">
+            <li><a href="index.php">Home</a></li>
 
         </ul>
 
