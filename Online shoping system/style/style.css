@@ -12,3 +12,8 @@
     background-color:white;
     color:white;
 }
+#menu{
+    padding:0;
+    line-height:36px;
+    margin-top:10px;
+}
