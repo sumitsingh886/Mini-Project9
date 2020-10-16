@@ -26,11 +26,9 @@
     <div id="navbar">
         <ul id="menu">
             <li><a href="index.php">Home</a></li>
-
+            <li><a href="all_products.php">All Products</a></li>
         </ul>
-
     </div>
-
     </div>
 </body>
 </html>
