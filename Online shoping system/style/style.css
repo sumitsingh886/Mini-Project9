@@ -42,3 +42,12 @@
     background:url(images/banner3.jpeg);
     background-size:cover;
 }
+#bannerContent{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
