@@ -22,6 +22,8 @@
                 <th><a href="#" style="text-decoration:none;"><font color="black">Cart</font></a></th>
             </tr>
         </table>
+    </div>
+    <div id="navbar">
 
     </div>
 
