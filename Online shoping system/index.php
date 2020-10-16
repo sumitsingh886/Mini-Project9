@@ -16,6 +16,10 @@
                         <input type="text" placeholder="Search for products, brand and more" name="user_query" style="width:550px; height:35px;">
                     </label>
                     <input type="button" name="search" value="Search" style="width:60px;height:35px;"></td>
+                <th><a href="login.php" style="text-decoration:none;"><font color="black">Login</font></a></th>
+                <th><a href="signup.php" style="text-decoration:none;"><font color="black">Sign up</font></a></th>
+                <th><a href="#" style="text-decoration:none;"><font color="black">More</font></a></th>
+                <th><a href="#" style="text-decoration:none;"><font color="black">Cart</font></a></th>
             </tr>
         </table>
 
