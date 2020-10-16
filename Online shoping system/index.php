@@ -27,6 +27,7 @@
         <ul id="menu">
             <li><a href="index.php">Home</a></li>
             <li><a href="all_products.php">All Products</a></li>
+            <li><a href="my_account.php">My Account</a></li>
         </ul>
     </div>
     </div>
