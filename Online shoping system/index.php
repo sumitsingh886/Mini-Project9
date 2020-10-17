@@ -62,6 +62,9 @@
                 <th width="20%"><img src="image/shirt.jpg" width="75%"></th>
             </tr>
         </table>
+    </div>&nbsp;
+    <div id="footer">
+
     </div>
     </div>
 </body>
