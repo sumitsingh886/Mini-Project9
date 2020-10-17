@@ -53,6 +53,12 @@
                 <th><h2>Watches</h2></th>
                 <th><h2>Shirts</h2></th>
             </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <th width="20%"><img src="image/camera.jpg" width="75%"></th>
+            </tr>
         </table>
     </div>
     </div>
