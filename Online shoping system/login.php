@@ -41,6 +41,10 @@
                             <div class="form-group">
                                 <input type="password" class="form-control" name="password" placeholder="Password(min. 6 characters)" pattern=".{6,}">
                             </div>
+                            <div class="form-group">
+                                <input type="submit" value="Login" class="btn btn-primary">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
