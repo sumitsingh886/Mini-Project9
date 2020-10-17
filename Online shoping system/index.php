@@ -44,7 +44,10 @@
             </center>
         </div>
     </div>
+    <br><br>
+    <div id="product_box">
 
+    </div>
     </div>
 </body>
 </html>
