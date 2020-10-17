@@ -45,6 +45,9 @@
                     <div class="form-group">
                         <input type="text" class="form-control" name="city" placeholder="City" required="true">
                     </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="address" placeholder="Address" required="true">
+                    </div>
                 </form>
             </div>
         </div>
