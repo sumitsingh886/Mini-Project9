@@ -30,6 +30,9 @@
             <div class="col-lg-4 col-lg-offset-4">
                 <h1><b>SIGN UP</b></h1>
                 <form method="post" action="user_registration_script.php">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Name" required="true">
+                    </div>
                 </form>
             </div>
         </div>
