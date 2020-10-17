@@ -65,7 +65,12 @@
     </div>&nbsp;
     <div id="footer">
         <table border="0" width="100%" bgcolor="lightgrey">
-
+            <tr>
+                <td width="25%" bgcolor="purple"><b>Quick Links</b></td>
+                <td width="25%" bgcolor="purple"><b>Follow Us</b></td>
+                <td width="25%" bgcolor="purple"><b>Contact</b></td>
+                <td width="25%" bgcolor="purple"><b>Search</b></td>
+            </tr>
         </table>
     </div>
     </div>
