@@ -64,7 +64,9 @@
         </table>
     </div>&nbsp;
     <div id="footer">
+        <table border="0" width="100%" bgcolor="lightgrey">
 
+        </table>
     </div>
     </div>
 </body>
