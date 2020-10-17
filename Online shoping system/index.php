@@ -87,6 +87,14 @@
                         <li><a href="www.youtube.com">Youtube</a></li>
                     </ul>
                 </td>
+                <td>
+                    <ul id="link">
+                        <li><a href="#">Number</a></li>
+                        <li><a href="#">Address</a></li>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Pincode</a></li>
+                    </ul>
+                </td>
             </tr>
         </table>
     </div>
