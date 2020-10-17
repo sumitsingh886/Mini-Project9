@@ -95,6 +95,9 @@
                         <li><a href="#">Pincode</a></li>
                     </ul>
                 </td>
+                <td><input type="text" placeholder="search">
+                    <input type="button" value="Search">
+                </td>
             </tr>
         </table>
     </div>
