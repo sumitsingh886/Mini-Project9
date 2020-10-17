@@ -46,7 +46,9 @@
     </div>
     <br><br>
     <div id="product_box">
+        <table border="0" width="100%" bgcolor="" height="7%">
 
+        </table>
     </div>
     </div>
 </body>
