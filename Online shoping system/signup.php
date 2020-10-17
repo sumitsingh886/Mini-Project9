@@ -48,6 +48,9 @@
                     <div class="form-group">
                         <input type="text" class="form-control" name="address" placeholder="Address" required="true">
                     </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Sign Up">
+                    </div>
                 </form>
             </div>
         </div>
