@@ -59,6 +59,7 @@
             <tr>
                 <th width="20%"><img src="image/camera.jpg" width="75%"></th>
                 <th width="20%"><img src="image/watch.jpg" width="75%"></th>
+                <th width="20%"><img src="image/shirt.jpg" width="75%"></th>
             </tr>
         </table>
     </div>
