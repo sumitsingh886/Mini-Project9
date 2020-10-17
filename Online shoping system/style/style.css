@@ -56,6 +56,9 @@
     height:20%;
     padding-left: 100px;
 }
+#footer{
+    background-color:lightgrey;
+}
 #link li{
     list-style:none;
 }
