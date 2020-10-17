@@ -32,6 +32,10 @@
                     <div>
                         <h3>LOGIN</h3>
                     </div>
+                    <div>
+                        <p>Login to make a purchase.</p>
+                        <form method="post" action="login_submit.php">
+                    </div>
                 </div>
             </div>
         </div>
