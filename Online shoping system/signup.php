@@ -42,6 +42,9 @@
                     <div class="form-group">
                         <input type="tel" class="form-control" name="contact" placeholder="Contact" required="true">
                     </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="city" placeholder="City" required="true">
+                    </div>
                 </form>
             </div>
         </div>
