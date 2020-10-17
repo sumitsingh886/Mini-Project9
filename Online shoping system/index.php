@@ -71,6 +71,15 @@
                 <td width="25%" bgcolor="purple"><b>Contact</b></td>
                 <td width="25%" bgcolor="purple"><b>Search</b></td>
             </tr>
+            <tr>
+                <td>
+                    <ul id="link">
+                        <li><a href="products.php">Cameras</a></li>
+                        <li><a href="products.php">Watches</a></li>
+                        <li><a href="products.php">Shirts</a></li>
+                    </ul>
+                </td>
+            </tr>
         </table>
     </div>
     </div>
