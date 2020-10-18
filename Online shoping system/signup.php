@@ -24,45 +24,38 @@
             </tr>
         </table>
     </div>
-    <div id="navbar">
-        <ul id="menu">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="all_products.php">All Products</a></li>
-            <li><a href="my_account.php">My Account</a></li>
-            <li><a href="cart.php">Shopping Cart</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
-        </ul>
-    </div>
-    <div id="bannerImage">
-        <div class="container">
-            <center>
-                <div id="bannerContent">
-                    <h1>We sell .</h1>
-                    <p>Flat 40% OFF on all premium brands.</p>
-                    <a href="products.php" class="btn btn-danger">Shop Now</a>
-                </div>
-            </center>
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                <h1><b>SIGN UP</b></h1>
+                <form method="post" action="user_registration_script.php">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Name" required="true">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password(min. 6 characters)" required="true" pattern=".{6,}">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" name="contact" placeholder="Contact" required="true">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="city" placeholder="City" required="true">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="address" placeholder="Address" required="true">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Sign Up">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-    <br><br>
-    <div id="product_box">
-        <table border="0" width="100%" bgcolor="" height="7%">
-            <tr><td colspan="5"></td></tr>
-            <tr>
-                <th><h2>Cameras</h2></th>
-                <th><h2>Watches</h2></th>
-                <th><h2>Shirts</h2></th>
-            </tr>
-            <tr>
-                <td colspan="3"></td>
-            </tr>
-            <tr>
-                <th width="20%"><img src="image/camera.jpg" width="75%"></th>
-                <th width="20%"><img src="image/watch.jpg" width="75%"></th>
-                <th width="20%"><img src="image/shirt.jpg" width="75%"></th>
-            </tr>
-        </table>
-    </div>&nbsp;
+    <br><br><br><br><br><br>
     <div id="footer">
         <table border="0" width="100%" bgcolor="lightgrey">
             <tr>
@@ -101,6 +94,6 @@
             </tr>
         </table>
     </div>
-    </div>
+</div>
 </body>
 </html>
