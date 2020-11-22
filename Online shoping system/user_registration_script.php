@@ -20,7 +20,7 @@ echo "Password should have atleast 6 characters. Redirecting you back to registr
 $contact=$_POST['contact'];
 $city=mysqli_real_escape_string($con,$_POST['city']);
 $address=mysqli_real_escape_string($con,$_POST['address']);
-$duplicate_user_query="select id from user where email='$email'";
+$duplicate_user_query="select id from user where email ='$email'";
 $duplicate_user_result=mysqli_query($con,$duplicate_user_query) or die(mysqli_error($con));
 $rows_fetched=mysqli_num_rows($duplicate_user_result);
 if($rows_fetched>0){
