@@ -9,3 +9,4 @@ echo "Incorrect email. Redirecting you back to login page...";
     <meta http-equiv="refresh" content="2;url=login.php" />
     <?php
 }
+$password=md5(md5(mysqli_real_escape_string($con,$_POST['password'])));
