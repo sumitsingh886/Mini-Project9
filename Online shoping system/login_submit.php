@@ -6,3 +6,6 @@ $regex_email="/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[_a-z0-9-]+)*(\.[a-z]{2
 if(!preg_match($regex_email,$email)){
 echo "Incorrect email. Redirecting you back to login page...";
 ?>
+    <meta http-equiv="refresh" content="2;url=login.php" />
+    <?php
+}
