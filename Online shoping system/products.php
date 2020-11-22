@@ -41,6 +41,7 @@
                         <div class="caption">
                             <h3>Cannon EOS</h3>
                             <p>Price: Rs. 36000.00</p>
+                            <?php if(!isset($_SESSION['email'])){  ?>
                         </div>
                     </center>
 
