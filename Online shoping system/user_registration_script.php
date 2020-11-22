@@ -43,5 +43,9 @@ $_SESSION['id']=mysqli_insert_id($con);
 //header('location: products.php');  //for redirecting
 ?>
 <meta http-equiv="refresh" content="3;url=products.php" />
+    <?php
+}
+
+?>
 
 
