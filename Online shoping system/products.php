@@ -34,6 +34,9 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="thumbnail">
+                    <a href="cart.php">
+                        <img src="image/cannon_eos.jpg" alt="Cannon" width="100%" height="100%">
+                    </a>
 
     </div>
 </div>
