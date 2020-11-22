@@ -23,3 +23,7 @@ if($rows_fetched==0){
     //no user
     //redirecting to same login page
     ?>
+<script>
+    window.alert("Wrong username or password");
+</script>
+<meta http-equiv="refresh" content="1;url=login.php" />
