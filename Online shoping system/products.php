@@ -42,6 +42,9 @@
                             <h3>Cannon EOS</h3>
                             <p>Price: Rs. 36000.00</p>
                             <?php if(!isset($_SESSION['email'])){  ?>
+                            <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                        <?php
+                                        }
                         </div>
                     </center>
 
