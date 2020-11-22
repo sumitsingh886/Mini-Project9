@@ -45,6 +45,16 @@
                             <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
                                         }
+                            else{
+                                if(check_if_added_to_cart(1)){
+                                    echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
+                                }else{
+                                    ?>
+                                    <a href="cart_add.php?id=1" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                    <?php
+                                }
+                            }
+                            ?>
                         </div>
                     </center>
 
