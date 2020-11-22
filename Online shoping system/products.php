@@ -37,6 +37,12 @@
                     <a href="cart.php">
                         <img src="image/cannon_eos.jpg" alt="Cannon" width="100%" height="100%">
                     </a>
+                    <center>
+                        <div class="caption">
+                            <h3>Cannon EOS</h3>
+                            <p>Price: Rs. 36000.00</p>
+                        </div>
+                    </center>
 
     </div>
 </div>
