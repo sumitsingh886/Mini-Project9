@@ -30,6 +30,12 @@
             <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail">
+
+    </div>
 </div>
 </body>
 </html>
