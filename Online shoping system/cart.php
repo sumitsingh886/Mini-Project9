@@ -4,6 +4,11 @@ require 'connection.php';
 if(!isset($_SESSION['email'])){
     header('location: login.php');
 }
+$user_id=$_SESSION['id'];
+$user_products_query="select it.id,it.name,it.price from user_item ut inner join item it on it.id=ut.item_id where ut.user_id='$user_id'";
+$user_products_result=mysqli_query($con,$user_products_query) or die(mysqli_error($con));
+$no_of_user_products= mysqli_num_rows($user_products_result);
+$sum=0;
 ?>
 <html lang="en">
 <head>
