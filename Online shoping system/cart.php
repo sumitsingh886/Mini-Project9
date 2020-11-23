@@ -12,6 +12,16 @@ $sum=0;
 if($no_of_user_products==0){
 //echo "Add items to cart first.";
 ?>
+    <script>
+        window.alert("No items in the cart!!");
+    </script>
+    <?php
+}else{
+    while($row=mysqli_fetch_array($user_products_result)){
+        $sum=$sum+$row['price'];
+    }
+}
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
