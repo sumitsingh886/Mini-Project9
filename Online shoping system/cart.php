@@ -47,6 +47,44 @@
             </tbody>
         </table>
     </div>
+    <div id="footer">
+        <table border="0" width="100%" bgcolor="lightgrey">
+            <tr>
+                <td width="25%" bgcolor="purple"><b>Quick Links</b></td>
+                <td width="25%" bgcolor="purple"><b>Follow Us</b></td>
+                <td width="25%" bgcolor="purple"><b>Contact</b></td>
+                <td width="25%" bgcolor="purple"><b>Search</b></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul id="link">
+                        <li><a href="products.php">Cameras</a></li>
+                        <li><a href="products.php">Watches</a></li>
+                        <li><a href="products.php">Shirts</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul id="link">
+                        <li><a href="www.facebook.com">Facebook</a></li>
+                        <li><a href="www.twitter.com">Twitter</a></li>
+                        <li><a href="www.instagram.com">instagram</a></li>
+                        <li><a href="www.youtube.com">Youtube</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul id="link">
+                        <li><a href="#">Number</a></li>
+                        <li><a href="#">Address</a></li>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Pincode</a></li>
+                    </ul>
+                </td>
+                <td><input type="text" placeholder="search">
+                    <input type="button" value="Search">
+                </td>
+            </tr>
+        </table>
+    </div>
 </div>
 </body>
 </html>
