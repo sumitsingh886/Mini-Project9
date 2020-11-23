@@ -23,6 +23,15 @@
             </tr>
         </table>
     </div>
+    <div class="container">
+        <table class="table table-bordered table-striped">
+            <tbody>
+            <tr>
+                <th>Item Number</th><th>Item Name</th><th>Price</th><th></th>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 </body>
 </html>
