@@ -29,6 +29,10 @@
             <tr>
                 <th>Item Number</th><th>Item Name</th><th>Price</th><th></th>
             </tr>
+            <tr>
+                <th><?php echo $counter ?></th><th><?php echo $row['name']?></th><th><?php echo $row['price']?></th>
+                <th><a href='cart_remove.php?id=<?php echo $row['id'] ?>'>Remove</a></th>
+            </tr>
             </tbody>
         </table>
     </div>
