@@ -29,6 +29,13 @@
             <tr>
                 <th>Item Number</th><th>Item Name</th><th>Price</th><th></th>
             </tr>
+            <?php
+            $user_products_result=mysqli_query($con,$user_products_query) or die(mysqli_error($con));
+            $no_of_user_products= mysqli_num_rows($user_products_result);
+            $counter=1;
+            while($row=mysqli_fetch_array($user_products_result)){
+
+            ?>
             <tr>
                 <th><?php echo $counter ?></th><th><?php echo $row['name']?></th><th><?php echo $row['price']?></th>
                 <th><a href='cart_remove.php?id=<?php echo $row['id'] ?>'>Remove</a></th>
