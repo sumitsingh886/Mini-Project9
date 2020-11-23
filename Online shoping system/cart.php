@@ -1,6 +1,9 @@
 <?php
 session_start();
 require 'connection.php';
+if(!isset($_SESSION['email'])){
+    header('location: login.php');
+}
 ?>
 <html lang="en">
 <head>
