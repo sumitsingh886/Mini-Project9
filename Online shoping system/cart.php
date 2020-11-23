@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
 </head>
 <body>
-
+<div class="main_wrapper">
+    <div class="header">
+    </div>
+</div>
 </body>
 </html>
