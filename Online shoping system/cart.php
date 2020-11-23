@@ -9,6 +9,8 @@ $user_products_query="select it.id,it.name,it.price from user_item ut inner join
 $user_products_result=mysqli_query($con,$user_products_query) or die(mysqli_error($con));
 $no_of_user_products= mysqli_num_rows($user_products_result);
 $sum=0;
+if($no_of_user_products==0){
+//echo "Add items to cart first.";
 ?>
 <html lang="en">
 <head>
