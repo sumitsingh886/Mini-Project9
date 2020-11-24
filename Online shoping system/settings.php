@@ -44,6 +44,9 @@
                     <div class="form-group">
                         <input type="password" class="form-control" name="oldPassword" placeholder="Old Password">
                     </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="newPassword" placeholder="New Password">
+                    </div>
                 </form>
             </div>
         </div>
