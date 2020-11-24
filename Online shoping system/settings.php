@@ -40,6 +40,9 @@
         <div class="row">
             <div class="col-xs-4 col-xs-offset-4">
                 <h1>Change Password</h1>
+                <form method="post" action="setting_script.php">
+
+                </form>
             </div>
         </div>
     </div>
