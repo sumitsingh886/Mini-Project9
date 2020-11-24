@@ -12,3 +12,11 @@ $password_from_database_query="select password from user where email='$email'";
 $password_from_database_result=mysqli_query($con,$password_from_database_query) or die(mysqli_error($con));
 $row=mysqli_fetch_array($password_from_database_result);
 //echo $row['password'];
+if($row['password']==$old_password){
+    $update_password_query="update users set password='$new_password' where email='$email'";
+    $update_password_result=mysqli_query($con,$update_password_query) or die(mysqli_error($con));
+    echo "Your password has been updated.";
+    ?>
+    <meta http-equiv="refresh" content="3;url=products.php" />
+    <?php
+}
