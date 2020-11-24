@@ -44,15 +44,10 @@ session_destroy();
     <div class="container">
         <div class="row">
             <div class="col-xs-6">
-                <div class="panel panel-primary">
-                    <div class="panel-heading"></div>
-                    <div class="panel-body">
                         <p>You have been logged out. <a href="login.php">Login again.</a></p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div id="footer">
         <table border="0" width="100%" bgcolor="lightgrey">
             <tr>
