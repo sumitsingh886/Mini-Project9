@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +38,7 @@
             </tr>
         </table>
     </div>
-    <br>
+    <br><br>
     <div class="container">
         <div class="row">
             <div class="col-xs-6">
@@ -43,6 +46,7 @@
             </div>
         </div>
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div id="footer">
         <table border="0" width="100%" bgcolor="lightgrey">
             <tr>
