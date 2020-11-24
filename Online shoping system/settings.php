@@ -35,7 +35,7 @@
             </tr>
         </table>
     </div>
-    <br>
+    <br><br>
     <div class="container">
         <div class="row">
             <div class="col-xs-4 col-xs-offset-4">
@@ -57,7 +57,7 @@
             </div>
         </div>
     </div>
-    <br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>
     <div id="footer">
         <table border="0" width="100%" bgcolor="lightgrey">
             <tr>
