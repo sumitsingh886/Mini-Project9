@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-4 col-xs-offset-4">
-
+                <h1>Change Password</h1>
             </div>
         </div>
     </div>
