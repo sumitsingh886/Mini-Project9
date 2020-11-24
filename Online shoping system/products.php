@@ -1,3 +1,7 @@
+<?php
+session_start();
+require 'check_if_added.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
