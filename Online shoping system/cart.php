@@ -40,13 +40,25 @@ if($no_of_user_products==0){
                         <input type="text" placeholder="Search for products, brand and more" name="user_query" style="width:550px; height:35px;">
                     </label>
                     <input type="button" name="search" value="Search" style="width:60px;height:35px;"></td>
-                <th><a href="login.php" style="text-decoration:none;"><font color="black">Login</font></a></th>
-                <th><a href="signup.php" style="text-decoration:none;"><font color="black">Sign up</font></a></th>
-                <th><a href="#" style="text-decoration:none;"><font color="black">More</font></a></th>
-                <th><a href="cart.php" style="text-decoration:none;"><font color="black">Cart</font></a></th>
+                <?php
+                if(isset($_SESSION['email'])){
+                    ?>
+                    <th><a href="cart.php" style="text-decoration:none;"><font color="black">Cart</font></a></th>
+                    <th><a href="settings.php" style="text-decoration:none;"><font color="black">Settings</font></a></th>
+                    <th><a href="logout.php" style="text-decoration:none;"><font color="black">Logout</font></a></th>
+                    <?php
+                }else{
+                    ?>
+                    <th><a href="login.php" style="text-decoration:none;"><font color="black">Login</font></a></th>
+                    <th><a href="signup.php" style="text-decoration:none;"><font color="black">Sign up</font></a></th>
+                    <th><a href="#" style="text-decoration:none;"><font color="black">More</font></a></th>
+                    <?php
+                }
+                ?>
             </tr>
         </table>
     </div>
+    <br>
     <div class="container">
         <table class="table table-bordered table-striped">
             <tbody>
@@ -71,6 +83,7 @@ if($no_of_user_products==0){
             </tbody>
         </table>
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div id="footer">
         <table border="0" width="100%" bgcolor="lightgrey">
             <tr>
