@@ -1,6 +1,7 @@
 <?php
 require 'connection.php';
 //require 'header.php';
+session_start();
 $item_id=$_GET['id'];
 $user_id=$_SESSION['id'];
 $delete_query="delete from user_item where user_id='$user_id' and item_id='$item_id'";
