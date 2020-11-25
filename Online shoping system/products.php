@@ -17,10 +17,10 @@ require 'check_if_added.php';
         <table border="0" width="100%" bgcolor="#ffb6c1">
             <tr>
                 <td align="right"><h4 style="font-family:'Arizonia',serif;font-size:30px; margin:0;" ;>Online Shop</h4></td>
-                <td><label>
+                <td>
+                    <form method="get" action="products.php" enctype="multipart/form-data">
                         <input type="text" placeholder="Search for products, brand and more" name="user_query" style="width:550px; height:35px;">
-                    </label>
-                    <input type="button" name="search" value="Search" style="width:60px;height:35px;"></td>
+                        <input type="button" name="search" value="Search" style="width:60px;height:35px;"></form></td>
                 <?php
                 if(isset($_SESSION['email'])){
                     ?>
