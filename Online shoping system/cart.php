@@ -1,11 +1,27 @@
 <?php
-    require 'connection.php';
-    session_start();
-    if(isset($_SESSION['email'])){
-        header('location: products.php');
-    }
+session_start();
+require 'connection.php';
+if(!isset($_SESSION['email'])){
+    header('location: login.php');
+}
+$user_id=$_SESSION['id'];
+$user_products_query="select it.id,it.name,it.price from user_item ut inner join item it on it.id=ut.item_id where ut.user_id='$user_id'";
+$user_products_result=mysqli_query($con,$user_products_query) or die(mysqli_error($con));
+$no_of_user_products= mysqli_num_rows($user_products_result);
+$sum=0;
+if($no_of_user_products==0){
+//echo "Add items to cart first.";
 ?>
-<!DOCTYPE html>
+    <script>
+        window.alert("No items in the cart!!");
+    </script>
+    <?php
+}else{
+    while($row=mysqli_fetch_array($user_products_result)){
+        $sum=$sum+$row['price'];
+    }
+}
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,38 +58,32 @@
             </tr>
         </table>
     </div>
-    <br><br><br>
+    <br>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-lg-offset-4">
-                <h1><b>SIGN UP</b></h1>
-                <form method="post" action="user_registration_script.php">
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="name" placeholder="Name" required="true">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="password" placeholder="Password(min. 6 characters)" required="true" pattern=".{6,}">
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" class="form-control" name="contact" placeholder="Contact" required="true">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="city" placeholder="City" required="true">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="address" placeholder="Address" required="true">
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" class="btn btn-primary" value="Sign Up">
-                    </div>
-                </form>
-            </div>
-        </div>
+        <table class="table table-bordered table-striped">
+            <tbody>
+            <tr>
+                <th>Item Number</th><th>Item Name</th><th>Price</th><th></th>
+            </tr>
+            <?php
+            $user_products_result=mysqli_query($con,$user_products_query) or die(mysqli_error($con));
+            $no_of_user_products= mysqli_num_rows($user_products_result);
+            $counter=1;
+            while($row=mysqli_fetch_array($user_products_result)){
+
+            ?>
+            <tr>
+                <th><?php echo $counter ?></th><th><?php echo $row['name']?></th><th><?php echo $row['price']?></th>
+                <th><a href='cart_remove.php?id=<?php echo $row['id'] ?>'>Remove</a></th>
+            </tr>
+                <?php $counter=$counter+1;}?>
+            <tr>
+                <th></th><th>Total</th><th>Rs <?php echo $sum;?>/-</th><th><a href="success.php?id=<?php echo $user_id?>" class="btn btn-primary">Confirm Order</a></th>
+            </tr>
+            </tbody>
+        </table>
     </div>
-    <br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div id="footer">
         <table border="0" width="100%" bgcolor="lightgrey">
             <tr>
