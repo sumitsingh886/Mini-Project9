@@ -83,10 +83,10 @@ if(!isset($_SESSION['email'])){
                 </td>
                 <td>
                     <ul id="link">
-                        <li><a href="www.facebook.com">Facebook</a></li>
-                        <li><a href="www.twitter.com">Twitter</a></li>
-                        <li><a href="www.instagram.com">instagram</a></li>
-                        <li><a href="www.youtube.com">Youtube</a></li>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="https://twitter.com/">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/">instagram</a></li>
+                        <li><a href="https://www.youtube.com/">Youtube</a></li>
                     </ul>
                 </td>
                 <td>
