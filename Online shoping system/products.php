@@ -65,7 +65,7 @@ require 'check_if_added.php';
                                     echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
                                 }else{
                                     ?>
-                                    <a href="cart_add.php?id=1" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                    <a href="cart_add.php?id=1" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a><br>
                                     <?php
                                 }
                             }
@@ -175,7 +175,7 @@ require 'check_if_added.php';
                                     echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
                                 }else{
                                     ?>
-                                    <a href="cart_add.php?id=5" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                    <a href="cart_add.php?id=5" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a><br>
                                     <?php
                                 }
                             }
