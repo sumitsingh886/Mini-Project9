@@ -82,7 +82,7 @@ session_start();
                 <td width="25%" bgcolor="purple"><b style="padding-left: 40px">Quick Links</b></td>
                 <td width="25%" bgcolor="purple"><b style="padding-left: 40px">Follow Us</b></td>
                 <td width="25%" bgcolor="purple"><b style="padding-left: 40px">Contact</b></td>
-                <td width="25%" bgcolor="purple"><b style="padding-left: 50px">Search</b></td>
+                <td width="25%" bgcolor="purple"><b style="padding-left: 50 px">Search</b></td>
             </tr>
             <tr>
                 <td>
