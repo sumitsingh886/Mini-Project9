@@ -16,7 +16,7 @@ require 'check_if_added.php';
     <div class="header">
         <table border="0" width="100%" bgcolor="#ffb6c1">
             <tr>
-                <td align="right"><h4 style="font-family:'Arizonia',serif;font-size:30px; margin:0;" ;>Online Shop</h4></td>
+                <td align="right"><h4 style="font-family:'Arizonia',serif;font-size:30px; margin:0;" ;><a style="text-decoration: none;color: black" href="index.php"> Online Shop</a></h4></td>
                 <td><label>
                         <input type="text" placeholder="Search for products, brand and more" name="user_query" style="width:550px; height:35px;">
                     </label>
@@ -39,7 +39,7 @@ require 'check_if_added.php';
             </tr>
         </table>
     </div>
-    <div class="container">
+    <div class="container"><br>
         <div class="jumbotron">
             <h1>Welcome to our Online Shop Store!</h1>
             <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>
