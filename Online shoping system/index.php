@@ -16,7 +16,7 @@ session_start();
         <table border="0" width="100%" bgcolor="#ffb6c1">
             <tr>
                 <td align="right"><h4 style="font-family:'Arizonia',serif;font-size:30px; margin:0;" ;>Online Shop</h4></td>
-                <td><form method="get" action="results.php" enctype="multipart/form-data">
+                <td><form method="get" action="products.php" enctype="multipart/form-data">
                         <input type="text" placeholder="Search for products, brand and more" name="user_query" style="width:550px; height:35px;">
                         <input type="button" name="search" value="Search" style="width:60px;height:35px;"></form></td>
 					<?php
@@ -94,10 +94,10 @@ session_start();
                 </td>
                 <td>
                     <ul id="link">
-                        <li><a href="www.facebook.com">Facebook</a></li>
-                        <li><a href="www.twitter.com">Twitter</a></li>
-                        <li><a href="www.instagram.com">instagram</a></li>
-                        <li><a href="www.youtube.com">Youtube</a></li>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="https://twitter.com/">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/">instagram</a></li>
+                        <li><a href="https://www.youtube.com/">Youtube</a></li>
                     </ul>
                 </td>
                 <td>
