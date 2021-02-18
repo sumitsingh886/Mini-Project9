@@ -17,8 +17,10 @@ session_start();
             <tr>
                 <td align="right"><h4 style="font-family:'Arizonia',serif;font-size:30px; margin:0;" ;>Online Shop</h4></td>
                 <td><form method="get" action="products.php" enctype="multipart/form-data">
+                <td><label>
                         <input type="text" placeholder="Search for products, brand and more" name="user_query" style="width:550px; height:35px;">
-                        <input type="button" name="search" value="Search" style="width:60px;height:35px;"></form></td>
+                    </label>
+                    <input type="button" name="search" value="Search" style="height:35px;"></td>
 					<?php
                            if(isset($_SESSION['email'])){
                            ?>

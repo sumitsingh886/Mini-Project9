@@ -39,7 +39,7 @@ if($no_of_user_products==0){
                 <td><label>
                         <input type="text" placeholder="Search for products, brand and more" name="user_query" style="width:550px; height:35px;">
                     </label>
-                    <input type="button" name="search" value="Search" style="width:60px;height:35px;"></td>
+                    <input type="button" name="search" value="Search" style="height:35px;"></td>
                 <?php
                 if(isset($_SESSION['email'])){
                     ?>

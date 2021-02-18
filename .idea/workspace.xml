@@ -19,13 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b66f2b9-bbf2-4d3e-8974-5d73c2d549d4" name="Default Changelist" comment="commit">
+    <list default="true" id="4b66f2b9-bbf2-4d3e-8974-5d73c2d549d4" name="Default Changelist" comment="Add navbar">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-11-2020_04_19_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-11-2020_04_19_PM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Online shoping system/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/Online shoping system/cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Online shoping system/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Online shoping system/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Online shoping system/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Online shoping system/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Online shoping system/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/Online shoping system/products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Online shoping system/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/Online shoping system/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online shoping system/user_registration_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/Online shoping system/user_registration_script.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +47,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mid Term Report" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ecommerce" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Mini-Project9\Online shoping system" />
       <recent name="C:\wamp64\www\Mini-Project9\Mid Term Report" />
     </key>
   </component>
@@ -78,7 +80,17 @@
       <workItem from="1606292643440" duration="1031000" />
       <workItem from="1606304752439" duration="4530000" />
       <workItem from="1606367338154" duration="2737000" />
-      <workItem from="1606381681277" duration="4718000" />
+      <workItem from="1606381681277" duration="5851000" />
+      <workItem from="1606995821715" duration="11000" />
+      <workItem from="1607403153371" duration="1214000" />
+      <workItem from="1607503925671" duration="3133000" />
+      <workItem from="1607591128790" duration="1844000" />
+      <workItem from="1611392456194" duration="312000" />
+      <workItem from="1612542257371" duration="19000" />
+      <workItem from="1613582760631" duration="2535000" />
+      <workItem from="1613585716275" duration="1028000" />
+      <workItem from="1613618858066" duration="824000" />
+      <workItem from="1613650048928" duration="581000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1598098784444</created>
@@ -136,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606388073114</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add navbar">
+      <created>1606390790039</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606390790039</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,36 +181,7 @@
     <MESSAGE value="add br tag" />
     <MESSAGE value="delete results.php" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="493" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598098891399">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="493" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1598098891399" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606370031192">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606370031192" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598965641192">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598965641192" />
-    <state x="639" y="310" key="Github.ShareDialog" timestamp="1598098808093">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="639" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1598098808093" />
-    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1606305398468">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1606305398468" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606388082758">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606388082758" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606387851040">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606387851040" />
+    <MESSAGE value="Add navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add navbar" />
   </component>
 </project>

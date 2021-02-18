@@ -23,7 +23,7 @@ require 'check_if_added.php';
                     <form method="get" action="products.php" enctype="multipart/form-data">
 
                         <input type="text" placeholder="Search for products, brand and more" name="user_query" style="width:550px; height:35px;">
-                        <input type="button" name="search" value="Search" style="width:60px;height:35px;"></form></td>
+                        <input type="button" name="search" value="Search" style="height:35px;"></form></td>
                 <?php
                 if(isset($_SESSION['email'])){
                     ?>
