@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b66f2b9-bbf2-4d3e-8974-5d73c2d549d4" name="Default Changelist" comment="Add navbar">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-11-2020_04_19_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-11-2020_04_19_PM__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="4b66f2b9-bbf2-4d3e-8974-5d73c2d549d4" name="Default Changelist" comment="change search button style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Online shoping system/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Online shoping system/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Online shoping system/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Online shoping system/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Online shoping system/user_registration_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/Online shoping system/user_registration_script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online shoping system/database/miniproject.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,9 +48,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ecommerce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -90,7 +94,8 @@
       <workItem from="1613582760631" duration="2535000" />
       <workItem from="1613585716275" duration="1028000" />
       <workItem from="1613618858066" duration="824000" />
-      <workItem from="1613650048928" duration="581000" />
+      <workItem from="1613650048928" duration="11405000" />
+      <workItem from="1613705127375" duration="1236000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1598098784444</created>
@@ -155,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606390790039</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change search button style">
+      <created>1613650808898</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613650808898</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +194,7 @@
     <MESSAGE value="delete results.php" />
     <MESSAGE value="commit" />
     <MESSAGE value="Add navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add navbar" />
+    <MESSAGE value="change search button style" />
+    <option name="LAST_COMMIT_MESSAGE" value="change search button style" />
   </component>
 </project>
